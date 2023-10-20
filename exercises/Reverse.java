@@ -11,7 +11,18 @@ public class Reverse {
             reversed.append(sep);
         }
     }
+    return reversed.toString();
    }
+   public static String function2(String  str, String sep ){
+    return function1(str, sep);
+   }
+
+   public static void main(String[] args) {
+    String sentence = "Welcome to Rca !";
+    String section = function1(sentence, "");
+    String result = function2(section, " ");
+    System.out.println(result);
+}
 
   
 }
