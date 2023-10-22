@@ -1,4 +1,4 @@
-package RCA.ms.src.main.java.ac.rca.models;
+package ac.rca.models;
 
 public class Address {
     

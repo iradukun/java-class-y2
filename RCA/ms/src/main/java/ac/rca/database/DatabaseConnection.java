@@ -1,4 +1,4 @@
-package RCA.ms.src.main.java.ac.rca.database;
+package ac.rca.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,7 +10,7 @@ public class DatabaseConnection {
     private static final String USERNAME="mustapha";
     private static final String PASSWORD="123";
 
-    public static  Connnection getConnection() {
+    public static  Connection getConnection() {
 
         try{
             return DriverManager.getConnection(URL, USERNAME, PASSWORD);

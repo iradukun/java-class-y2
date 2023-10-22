@@ -1,4 +1,4 @@
-package RCA.ms.src.main.java.ac.rca;
+package ac.rca;
 
 public class Main {
     public static void main(String[] args) {
