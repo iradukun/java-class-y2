@@ -42,7 +42,6 @@ public class Main {
             int numberOfSeats;
             int minHeight;
             int maxHeight;
-            ArrayList<Car> arr= new ArrayList<Car>();
         try{
           
             System.out.println("Enter color");
